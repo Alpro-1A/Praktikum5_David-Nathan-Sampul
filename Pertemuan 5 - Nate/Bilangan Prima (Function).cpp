@@ -4,7 +4,7 @@ using namespace std;
 
 // Function buat ngitung bilangan ganjil sampe faktor tertentu. 
 
-void bilanganGanjil (int limit, int sumGanjil) {
+void bilanganGanjil (int limit, int & sumGanjil) {
     cout << "Bilangan Ganjil: ";
     for (int i = 0; i <= limit; i++) {
         if (i % 2 != 0) {
@@ -17,7 +17,7 @@ void bilanganGanjil (int limit, int sumGanjil) {
 
 // Function buat ngitung bilangan genap sampe faktor tertentu.
 
-void bilanganGenap (int limit, int sumGenap) {
+void bilanganGenap (int limit, int & sumGenap) {
     cout << "Bilangan Genap: ";
     for (int i = 0; i <= limit; i += 2) {
         cout << i << " ";
@@ -28,7 +28,7 @@ void bilanganGenap (int limit, int sumGenap) {
 
 // Function buat ngitung ama nampilin jumlah bilangan prima sampe limit tertentu.
 
-void bilanganPrima (int limit, int sumPrima) {
+void bilanganPrima (int limit, int & sumPrima) {
     cout << "Bilangan Prima: ";
     for (int i = 2; i <= limit; i++) {
         int j;
