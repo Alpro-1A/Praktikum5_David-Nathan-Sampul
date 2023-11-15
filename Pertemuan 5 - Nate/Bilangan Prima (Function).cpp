@@ -16,6 +16,7 @@ void bilanganGanjil (int limit, int sumGanjil) {
 }
 
 // Function buat ngitung bilangan genap sampe faktor tertentu.
+
 void bilanganGenap (int limit, int sumGenap) {
     cout << "Bilangan Genap: ";
     for (int i = 0; i <= limit; i += 2) {
@@ -26,6 +27,7 @@ void bilanganGenap (int limit, int sumGenap) {
 }
 
 // Function buat ngitung ama nampilin jumlah bilangan prima sampe limit tertentu.
+
 void bilanganPrima (int limit, int sumPrima) {
     cout << "Bilangan Prima: ";
     for (int i = 2; i <= limit; i++) {
@@ -42,6 +44,7 @@ void bilanganPrima (int limit, int sumPrima) {
 }
 
 // Function buat nampilin faktor ganjil
+
 void faktorGanjil (int sumGanjil) {
     cout << "Faktor-faktor penjumlahan bilangan ganjil: ";
     for (int i = 1; i <= sumGanjil; i++) {
@@ -52,7 +55,8 @@ void faktorGanjil (int sumGanjil) {
     cout << endl;
 }
 
-// Function buat nampilin faktor genap
+// Function buat nampilin faktor genap.
+
 void faktorGenap (int sumGenap) {
     cout << "Faktor-faktor penjumlahan bilangan genap: ";
     for (int i = 1; i <= sumGenap; i++) {
@@ -63,7 +67,8 @@ void faktorGenap (int sumGenap) {
     cout << endl;
 }
 
-// Function buat nampilin faktor prima
+// Function buat nampilin faktor prima.
+
 void faktorPrima (int sumPrima) {
     cout << "Faktor-faktor penjumlahan bilangan prima: ";
     for (int i = 1; i <= sumPrima; i++) {
@@ -75,6 +80,7 @@ void faktorPrima (int sumPrima) {
 }
 
 // Buat output nya
+
 int main() {
     int limit;
     int sumGanjil = 0, sumGenap = 0, sumPrima = 0;
@@ -84,6 +90,7 @@ int main() {
     cin >> limit;
 
     // Manggilin function - function buat nampilin hasil tadi.
+    
     bilanganGanjil(limit, sumGanjil);
     bilanganGenap(limit, sumGenap);
     bilanganPrima(limit, sumPrima);
@@ -93,6 +100,7 @@ int main() {
     cout << "Jumlah bilangan Prima: " << sumPrima << endl;
 
     // Memanggil function - function buat nampilin hasil faktor tadi.
+    
     faktorGanjil(sumGanjil);
     faktorGenap(sumGenap);
     faktorPrima(sumPrima);
