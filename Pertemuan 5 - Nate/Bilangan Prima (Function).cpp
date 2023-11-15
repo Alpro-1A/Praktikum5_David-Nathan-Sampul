@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 // Function buat ngitung bilangan ganjil sampe faktor tertentu. 
@@ -99,7 +98,7 @@ int main() {
     cout << "Jumlah bilangan genap: " << sumGenap << endl;
     cout << "Jumlah bilangan Prima: " << sumPrima << endl;
 
-    // Memanggil function - function buat nampilin hasil faktor tadi.
+    // Manggilin function - function buat nampilin hasil faktor tadi.
     
     faktorGanjil(sumGanjil);
     faktorGenap(sumGenap);
